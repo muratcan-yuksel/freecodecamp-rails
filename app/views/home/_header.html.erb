@@ -13,9 +13,7 @@
          <li class="nav-item">        
  <%= link_to "Users", users_path, class:"navbar-brand"%> 
         </li>
-         <li class="nav-item">        
- <%= link_to "Add User", new_user_path, class:"navbar-brand"%> 
-        </li>         
+     
 <%
 =begin%>
  creating an if statement 
@@ -39,6 +37,10 @@
          <li class="nav-item">        
  <%= link_to "Edit profile", edit_auth_registration_path, class:"navbar-brand"%> 
         </li>
+
+                 <li class="nav-item">        
+ <%= link_to "Add User", new_user_path, class:"navbar-brand"%> 
+        </li>    
 
         <%else%>
         
